@@ -16,13 +16,13 @@ public class SeedData {
 	@PostConstruct
 	public void init() {
 		// Dummy data to begin with
-		Comment comment1 = new Comment(1L, "commt1 test ", 1L, 1L);
+		Comment comment1 = new Comment(1L, "comment 1 .... ", 1L, 1L);
 		em.persist(comment1);
 
-		Comment comment2 = new Comment(2L, "commt2 test ", 2L, 1L);
+		Comment comment2 = new Comment(2L, "comment 2 ... ", 2L, 1L);
 		em.persist(comment2);
 
-		Comment comment3 = new Comment(3L, "commt3 test ", 1L, 1L);
+		Comment comment3 = new Comment(3L, "comment 3 ... ", 1L, 1L);
 		em.persist(comment3);
 
 	}
